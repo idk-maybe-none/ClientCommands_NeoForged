@@ -75,7 +75,7 @@ side = "BOTH"
 [[dependencies."${mod_id}"]]
 modId = "fabric_api"
 type = "required"
-versionRange = "[0.116.7+2.2.4+1.21.1,)"
+versionRange = "[0.116.15+2.3.5+1.21.1,)"
 ordering = "NONE"
 side = "CLIENT"
 
