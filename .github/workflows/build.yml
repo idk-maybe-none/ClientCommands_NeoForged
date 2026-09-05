@@ -24,7 +24,7 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
       - run: ./gradlew check --stacktrace --no-daemon
-      - run: ./gradlew build -Pmod_version="$(git describe --always --tags | cut -c2-)" --stacktrace --no-daemon
+      - run: ./gradlew build -Pmod_version="v2.9.3+1.0+1.21.1" --stacktrace --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: clientcommands-snapshot
